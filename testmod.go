@@ -6,5 +6,5 @@ import (
 )
 
 func Hi(name string) string {
-	return fmt.Sprintf("Hi, %s %s", name, test.Hello("roberto"))
+	return fmt.Sprintf("Hi, %s %s %s", name, test.Hello("roberto"), "suck")
 }
